@@ -158,6 +158,12 @@ body {
     align-items: flex-start;
     gap: 24px;
     flex: 1 0 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.vision_section .card_1:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .vision_section .card .card_1 .btn {
@@ -187,6 +193,12 @@ body {
     border-radius: 16px;
     border: 0px solid #09A15C;
     background: #C6E4D6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.vision_section .card_2:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .vision_section .card .card_2 .btn {
@@ -217,6 +229,12 @@ body {
     border-radius: 16px;
     border: 0px solid #FFC239;
     background: #F7EBCF;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.vision_section .card_3:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .vision_section .card .card_3 .btn {
@@ -419,7 +437,8 @@ body {
     width: 1032px;
     padding: 20px 40px;
     border: none;
-    border-radius: 10px;  /* Optional: use for better view */
+    border-radius: 10px;
+    /* Optional: use for better view */
 }
 
 .donation_section .donation_input input[type="text"] {
@@ -427,4 +446,70 @@ body {
     color: #0e0e0e4d;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* Newsletter Section */
+
+.newsletter_section {
+    margin-top: 80px;
+}
+
+.newsletter_section .newsletter_content {
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: #C6E4D6;
+}
+
+.newsletter_section .newsletter_content h1 {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.newsletter_section .newsletter_content p {
+    color: #0e0e0eb3;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.newsletter_section .newsletter_content form {
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter_section .newsletter_content form input {
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+    width: 600px;
+    padding: 18px 40px;
+    border: none;
+}
+
+.newsletter_section .newsletter_content form input::placeholder {
+    color: #0e0e0e4d;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsletter_section .newsletter_content form button {
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    color: #FFF;
+    border: none;
+    font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.4s ease-in-out;
+}
+
+.newsletter_section .newsletter_content form button:hover {
+    background-color: #014f3b;
 }
