@@ -166,6 +166,7 @@ body {
     background: #5490F5;
     border: none;
     color: #FFF;
+    cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
 
@@ -195,6 +196,7 @@ body {
     background: #09A15C;
     border: none;
     color: #FFF;
+    cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
 
@@ -224,6 +226,7 @@ body {
     background: #FFC239;
     border: none;
     color: #FFF;
+    cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
 
@@ -296,7 +299,7 @@ body {
 .news_section .news_content {
     background-color: #ffffff;
     border-radius: 24px;
-} 
+}
 
 .news_section .news_card {
     display: flex;
@@ -314,7 +317,6 @@ body {
     color: rgba(14, 14, 14, 0.80);
     font-size: 32px;
     font-weight: 700;
-
 }
 
 .news_section .news_card .news_body img {
@@ -340,5 +342,89 @@ body {
     font-weight: 600;
     border: none;
     margin-top: 32px;
+    cursor: pointer;
     transition: all 0.4s ease-in-out;
+}
+
+.news_section .news_card .news_body .btn:hover {
+    background-color: #004534;
+}
+
+/* Donation Section */
+
+.donation_section {
+    margin-top: 80px;
+}
+
+.donation_section .donation_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.donation_section .donation_content .btn {
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.donation_section .donation_heading h1 {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donation_section .donation_heading p {
+    color: #0e0e0eb3;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.donation_section .donation_amounts {
+    display: flex;
+    gap: 24px;
+}
+
+.donation_section .donation_amounts .amount_card {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    padding: 40px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.donation_section .donation_amounts .amount_card:hover {
+    background: #C6E4D6;
+}
+
+.donation_section .donation_amounts .amount_card h1 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donation_section .donation_input input {
+    background: #FFF;
+    width: 1032px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;  /* Optional: use for better view */
+}
+
+.donation_section .donation_input input[type="text"] {
+    text-align: center;
+    color: #0e0e0e4d;
+    font-size: 20px;
+    font-weight: 400;
 }
