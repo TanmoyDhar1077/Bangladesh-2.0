@@ -441,6 +441,9 @@ body {
     /* Optional: use for better view */
 }
 
+.donation_section .donation_input input:focus {
+    outline: 2px solid #393b3a52;
+}
 .donation_section .donation_input input[type="text"] {
     text-align: center;
     color: #0e0e0e4d;
@@ -490,6 +493,10 @@ body {
     width: 600px;
     padding: 18px 40px;
     border: none;
+}
+
+.newsletter_section .newsletter_content form input:focus {
+    outline: 2px solid #0e291a52;   
 }
 
 .newsletter_section .newsletter_content form input::placeholder {
