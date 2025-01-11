@@ -505,11 +505,46 @@ body {
     color: #FFF;
     border: none;
     font-size: 18px;
-font-weight: 600;
-cursor: pointer;
-transition: all 0.4s ease-in-out;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
 
 .newsletter_section .newsletter_content form button:hover {
     background-color: #014f3b;
+}
+
+/* Footer Section */
+
+.footer_section {
+    margin-top: 80px;
+    background-color: #ffff;
+    padding: 50px 320px;
+}
+
+
+.footer_section h3 {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer_section a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer_section hr {
+    width: 1122px;
+    margin: 32px auto; 
+    border: 1px solid #0e0e0e1a;  
+}
+
+.footer_section ul {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+    justify-content: center;
+    align-items: center; 
 }
